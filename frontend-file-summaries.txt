@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the dashboard with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Comprehensive React Query hooks for all CRUD operations across five modules (customers, contracts, invoices, products, financial records), user profile management, and financial summary query with automatic cache invalidation.",
+  "frontend/src/pages/LoginPage.tsx": "Login page component with Internet Identity authentication and Chinese language interface displaying system features.",
+  "frontend/src/components/ProfileSetup.tsx": "Profile setup component for first-time users to enter their name after authentication.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard layout with sidebar navigation, module routing, and home page displaying all five CRM modules as cards.",
+  "frontend/src/components/modules/CustomersModule.tsx": "Customer management module with list view, search, create/edit/delete dialogs, and table display of customer information.",
+  "frontend/src/components/modules/ContractsModule.tsx": "Contract management module with customer selection, date ranges, product information fields (name, model, quantity, price, remarks), and full CRUD operations displaying all contract and product details in the table.",
+  "frontend/src/components/modules/InvoicesModule.tsx": "Invoice management module with customer linking, amount tracking, and complete invoice lifecycle management.",
+  "frontend/src/components/modules/ProductsModule.tsx": "Product management module with name, description, and pricing fields for product catalog management.",
+  "frontend/src/components/modules/FinancialRecordsModule.tsx": "Financial records module with list view, search, create/edit/delete dialogs, color-coded income/expense display, and three summary cards at the top showing total income, total expenses, and balance with automatic updates.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for a professional blue-themed CRM interface with light and dark mode support."
+}
